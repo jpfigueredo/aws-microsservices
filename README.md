@@ -55,11 +55,11 @@ The project integrates the following AWS services:
   ./gradlew build  
   ```
 3. Run the services:
-  Use Docker Compose for local deployment.
+- Use Docker Compose for local deployment.
   ```bash
   docker-compose up  
   ```
-  Deploy to AWS ECS for a production-like environment.
+- Deploy to AWS ECS for a production-like environment.
 
 ## Testing
 The repository includes unit and integration tests for each AWS service integration. Run the tests with:
